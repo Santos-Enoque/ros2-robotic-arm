@@ -1,0 +1,33 @@
+{
+  "name": "ROS2 Humble Dev Container",
+  "dockerFile": "Dockerfile",
+  "runArgs": [
+    "--privileged",
+    "--network=host",
+	"--env=DISPLAY=${localEnv:DISPLAY}",
+    "--volume=/tmp/.X11-unix:/tmp/.X11-unix"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/${localWorkspaceFolderBasename}",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+],
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"ms-vscode.cpptools",
+			"ms-vscode.cpptools-extension-pack",
+			"twxs.cmake",
+			"ms-vscode.cmake-tools",
+			"usernamehw.errorlens",
+			"GitHub.copilot",
+			"GitHub.copilot-chat",
+			"esbenp.prettier-vscode",
+			"redhat.vscode-xml",
+			"DotJoshJohnson.xml",
+			"redhat.vscode-yaml",
+			"ms-iot.vscode-ros"
+		]
+	}
+}
+}
