@@ -18,19 +18,10 @@ USER $USERNAME
 # Add user to video group to allow access to webcam
 RUN sudo usermod --append --groups video $USERNAME
 
-# Update all packages
-RUN sudo apt update && sudo apt upgrade -y
-
-# Install Git
-RUN sudo apt install -y git
-
-# Install additional ROS packages
-# RUN sudo apt install -y build-essential ros-dev-tools \
-# ros-${ROS_DISTRO}-ros2-control \
-# ros-${ROS_DISTRO}-ros2-controllers  
+# Install dependencies
 RUN sudo apt update && \
     sudo apt upgrade -y && \
-    sudo apt install -y build-essential ros-dev-tools \
+    sudo apt install -y build-essential git tmux ros-dev-tools \
     ros-${ROS_DISTRO}-ros2-control \
     ros-${ROS_DISTRO}-ros2-controllers \
     ros-${ROS_DISTRO}-xacro \
@@ -38,20 +29,11 @@ RUN sudo apt update && \
     ros-${ROS_DISTRO}-gazebo-ros2-control \
     ros-${ROS_DISTRO}-moveit \
     ros-${ROS_DISTRO}-joint-state-publisher-gui 
-    
-
-
-
 
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 # Setup colcon
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
-
-
-# Install tmux
-RUN sudo apt install -y tmux
-
 # Add tmux configuration
 RUN echo "set -g base-index 1\n\
     set -g pane-base-index 1\n\
