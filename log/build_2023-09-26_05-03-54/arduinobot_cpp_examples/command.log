@@ -1,0 +1,6 @@
+Invoking command in '/ros2_robotic_arm/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_robotic_arm/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/ros2_robotic_arm/install/arduinobot_cpp_examples
+Invoked command in '/ros2_robotic_arm/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_robotic_arm/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/ros2_robotic_arm/install/arduinobot_cpp_examples
+Invoking command in '/ros2_robotic_arm/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_robotic_arm/build/arduinobot_cpp_examples -- -j4 -l4
+Invoked command in '/ros2_robotic_arm/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_robotic_arm/build/arduinobot_cpp_examples -- -j4 -l4
+Invoking command in '/ros2_robotic_arm/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_robotic_arm/build/arduinobot_cpp_examples
+Invoked command in '/ros2_robotic_arm/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_robotic_arm/build/arduinobot_cpp_examples

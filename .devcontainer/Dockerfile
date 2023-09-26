@@ -32,8 +32,13 @@ RUN sudo apt update && \
 
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
+
+# Source workspace setup file
+RUN echo "source /ro2_robotic_arm/install/setup.bash" >> ~/.bashrc
+
 # Setup colcon
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
+
 # Add tmux configuration
 RUN echo "set -g base-index 1\n\
     set -g pane-base-index 1\n\

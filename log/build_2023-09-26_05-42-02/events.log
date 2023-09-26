@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000658] (arduinobot_cpp_examples) JobQueued: {'identifier': 'arduinobot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000882] (arduinobot_cpp_examples) JobStarted: {'identifier': 'arduinobot_cpp_examples'}
+[0.017945] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'cmake'}
+[0.018637] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'build'}
+[0.019550] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_robotic_arm/build/arduinobot_cpp_examples', '--', '-j4', '-l4'], 'cwd': '/ros2_robotic_arm/build/arduinobot_cpp_examples', 'env': OrderedDict([('HOSTNAME', 'santos-safrao'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vscode'), ('OLDPWD', '/ros2_robotic_arm/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_robotic_arm/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_robotic_arm/install/arduinobot_cpp_examples:/opt/ros/humble'), ('PWD', '/ros2_robotic_arm/build/arduinobot_cpp_examples'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_robotic_arm/install/arduinobot_cpp_examples:/opt/ros/humble')]), 'shell': False}
+[0.052546] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099703] (-) TimerEvent: {}
+[0.200085] (-) TimerEvent: {}
+[0.229540] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300353] (-) TimerEvent: {}
+[0.327141] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.343306] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.361853] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.388971] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400443] (-) TimerEvent: {}
+[0.421363] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500573] (-) TimerEvent: {}
+[0.561847] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.568390] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600699] (-) TimerEvent: {}
+[0.701305] (-) TimerEvent: {}
+[0.741756] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.782992] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.801423] (-) TimerEvent: {}
+[0.857392] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.875384] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901562] (-) TimerEvent: {}
+[0.979977] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.980490] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001675] (-) TimerEvent: {}
+[1.078093] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.079555] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101802] (-) TimerEvent: {}
+[1.202274] (-) TimerEvent: {}
+[1.302663] (-) TimerEvent: {}
+[1.314880] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.402764] (-) TimerEvent: {}
+[1.406490] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.406807] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.406980] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.407641] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.408726] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.408897] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.409347] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.410339] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.422189] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[1.424182] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /ros2_robotic_arm/build/arduinobot_cpp_examples\n'}
+[1.469378] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[1.502892] (-) TimerEvent: {}
+[1.603414] (-) TimerEvent: {}
+[1.705972] (-) TimerEvent: {}
+[1.806801] (-) TimerEvent: {}
+[1.907189] (-) TimerEvent: {}
+[2.007539] (-) TimerEvent: {}
+[2.107906] (-) TimerEvent: {}
+[2.208326] (-) TimerEvent: {}
+[2.308738] (-) TimerEvent: {}
+[2.409068] (-) TimerEvent: {}
+[2.509397] (-) TimerEvent: {}
+[2.609787] (-) TimerEvent: {}
+[2.710229] (-) TimerEvent: {}
+[2.810578] (-) TimerEvent: {}
+[2.910935] (-) TimerEvent: {}
+[3.011311] (-) TimerEvent: {}
+[3.111674] (-) TimerEvent: {}
+[3.212019] (-) TimerEvent: {}
+[3.312392] (-) TimerEvent: {}
+[3.412743] (-) TimerEvent: {}
+[3.513091] (-) TimerEvent: {}
+[3.613432] (-) TimerEvent: {}
+[3.713774] (-) TimerEvent: {}
+[3.814124] (-) TimerEvent: {}
+[3.914469] (-) TimerEvent: {}
+[4.014791] (-) TimerEvent: {}
+[4.115143] (-) TimerEvent: {}
+[4.215600] (-) TimerEvent: {}
+[4.316014] (-) TimerEvent: {}
+[4.416373] (-) TimerEvent: {}
+[4.516713] (-) TimerEvent: {}
+[4.617209] (-) TimerEvent: {}
+[4.717539] (-) TimerEvent: {}
+[4.817932] (-) TimerEvent: {}
+[4.918662] (-) TimerEvent: {}
+[5.019391] (-) TimerEvent: {}
+[5.119855] (-) TimerEvent: {}
+[5.220229] (-) TimerEvent: {}
+[5.320619] (-) TimerEvent: {}
+[5.421045] (-) TimerEvent: {}
+[5.527239] (-) TimerEvent: {}
+[5.628461] (-) TimerEvent: {}
+[5.729260] (-) TimerEvent: {}
+[5.830241] (-) TimerEvent: {}
+[5.931054] (-) TimerEvent: {}
+[6.031436] (-) TimerEvent: {}
+[6.132177] (-) TimerEvent: {}
+[6.232588] (-) TimerEvent: {}
+[6.332998] (-) TimerEvent: {}
+[6.433427] (-) TimerEvent: {}
+[6.533808] (-) TimerEvent: {}
+[6.634155] (-) TimerEvent: {}
+[6.734529] (-) TimerEvent: {}
+[6.834840] (-) TimerEvent: {}
+[6.935179] (-) TimerEvent: {}
+[7.035517] (-) TimerEvent: {}
+[7.135897] (-) TimerEvent: {}
+[7.236251] (-) TimerEvent: {}
+[7.336587] (-) TimerEvent: {}
+[7.437009] (-) TimerEvent: {}
+[7.537415] (-) TimerEvent: {}
+[7.602697] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[7.637547] (-) TimerEvent: {}
+[7.738359] (-) TimerEvent: {}
+[7.838774] (-) TimerEvent: {}
+[7.902888] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_publisher\n'}
+[7.917558] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[7.938861] (-) TimerEvent: {}
+[7.949805] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'install'}
+[7.960249] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_robotic_arm/build/arduinobot_cpp_examples'], 'cwd': '/ros2_robotic_arm/build/arduinobot_cpp_examples', 'env': OrderedDict([('HOSTNAME', 'santos-safrao'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vscode'), ('OLDPWD', '/ros2_robotic_arm/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_robotic_arm/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_robotic_arm/install/arduinobot_cpp_examples:/opt/ros/humble'), ('PWD', '/ros2_robotic_arm/build/arduinobot_cpp_examples'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_robotic_arm/install/arduinobot_cpp_examples:/opt/ros/humble')]), 'shell': False}
+[7.972226] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.972823] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher\n'}
+[7.974277] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/ros2_robotic_arm/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher" to ""\n'}
+[7.974521] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples\n'}
+[7.974746] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples\n'}
+[7.974971] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[7.975235] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[7.975393] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh\n'}
+[7.975704] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv\n'}
+[7.975884] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash\n'}
+[7.976107] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh\n'}
+[7.976289] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh\n'}
+[7.976432] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv\n'}
+[7.976568] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv\n'}
+[7.976705] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples\n'}
+[7.976839] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake\n'}
+[7.976972] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake\n'}
+[7.977106] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /ros2_robotic_arm/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml\n'}
+[7.978442] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[8.038733] (arduinobot_cpp_examples) JobEnded: {'identifier': 'arduinobot_cpp_examples', 'rc': 0}
+[8.039688] (-) TimerEvent: {}
+[8.039861] (-) EventReactorShutdown: {}
